@@ -1,5 +1,7 @@
+var game;
+
 function Main () {
-	PageSetup();
+	new PageSetup();
 }
 
 window.addEventListener('load', Main);
